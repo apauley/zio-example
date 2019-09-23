@@ -6,7 +6,7 @@ scalaVersion := "2.12.8"
 
 enablePlugins(JavaAppPackaging)
 
-val specs2Version = "4.2.0"
+val specs2Version = "4.7.1"
 val specs2Deps = Seq(
   "org.specs2" %% "specs2-core" % specs2Version % "test",
   "org.specs2" %% "specs2-scalacheck" % specs2Version % "test")
