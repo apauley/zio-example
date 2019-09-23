@@ -13,7 +13,7 @@ val specs2Deps = Seq(
 
 val logBack = Seq("ch.qos.logback" % "logback-classic" % "1.2.3")
 
-val sttpVersion = "1.5.12"
+val sttpVersion = "1.5.19"
 
 val sttpDeps = Seq(
   "com.softwaremill.sttp" %% "core" % sttpVersion,
